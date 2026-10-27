@@ -1,0 +1,12 @@
+.venv
+mmseqs/
+tmp/
+*.fna
+*.fasta
+*.tar.gz
+*.csv
+*.faa
+clu_cluster.tsv
+models/
+.ipynb_checkpoints/
+__pycache__/
