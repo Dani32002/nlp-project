@@ -144,6 +144,7 @@ Notebook §7.
   - Curvas de pérdida y de ganancia en validación (`plot_loss`, `plot_val_metrics`).
 - **7.2 Resultado principal en prueba (E. coli):**
   - Tabla de modelos × métricas para cada tasa y perfil, con media ± desviación estándar e IC.
+  - Incluye el % de genes completamente correctos (nivel "oración"), además de las métricas por posición. **[PENDIENTE]**
   - Modelos: NoChange, N-grama, GENERanno zero-shot y GENERanno + LoRA.
   - Frecuencia va aparte, solo con las métricas de corrección.
 - **7.3 Matriz tasa de entrenamiento × tasa de prueba:** heatmap de ganancia. ¿Sobrecorrige el modelo entrenado al 5 % cuando la tasa real es 0.1 %?
